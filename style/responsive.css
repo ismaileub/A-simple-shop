@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+
+    nav, .items-container,  .banner-section{
+        flex-direction: column;
+    }
+
+    nav, .items-container, .nav-container, .banner-img-container, .text-container{
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    .banner-section{
+        gap: 10px;
+    }
+    .discount{
+        width: 50px;
+        height: 50px;
+    }
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}

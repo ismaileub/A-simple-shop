@@ -2,4 +2,220 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #9376e0;
+    
+}
+nav{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container{
+    
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-container img{
+    width: 90px;
+    object-fit: cover;
+}
+
+.nav-container p{
+    font-size: 20px;
+}
+
+.special{
+    color: rgb(248, 3, 52);
+}
+
+.items-container{
+    
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.items-container .login {
+    padding: 10px 20px;
+    background-color: rgb(248, 3, 52);
+    
+    border-radius: 5px;
+    color: black;
+}
+
+
+
+.banner-section{
+    max-width: 1200px;
+    margin: 15px auto 0 auto;
+    min-height: 200px;
+    display: flex;
+    background-color:gainsboro;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.text-container{
+    min-height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.banner-img-container{
+    min-height: 200px;
+    width: 50%;
+    position: relative;
+}
+.banner-img-container img{
+    width: 100%;
+    /* display: block;
+    margin: 0 auto; */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.text-container h1{
+    background: linear-gradient( 45deg, #e893cf, #9376e0);
+    /* background: linear-gradient( to bottom, #e893cf, #9376e0); */
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+.text-container p{
+    font-family: "Dancing Script", cursive;
+    font-weight: 600;
+    font-size: 40px;
+}
+.fa-brands{
+    font-size: 35px;
+    /* color: black; */
+}
+
+.common-button{
+    padding: 10px 20px;
+    color: black;
+    border: 1px solid #e893cf;
+    border-radius: 5px;
+   /* margin-top: 10px; */
+}
+.discount{
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 70%;
+    left: 70%;
+}
+.Products-section{
+    max-width: 1200px;
+    margin: 15px auto 0 auto;
+
+}
+.grid-container{
+    /* min-width: 400px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.single-product{
+    padding: 10px;
+    background-color:gainsboro;
+    border-radius: 10px;
+}
+.single-product img{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.single-product .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-solid{
+    font-size: 30px;
+    background-color: #9376e0;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.Gallery-section{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.gallery-container{
+    margin: 15px 0;
+    background-color:gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+.gallery-container  .card{
+    /* border: 1px solid black; */
+    flex-basis: 350px;
+    /* width: 300px; */
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.gallery-container  .card img{
+width: 80%;
+display: block;
+margin: 0 auto;
+}
+
+footer {
+    background-color: #9376e0;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    min-height: 200px;
+  }
+  .footer-container img {
+    width: 40px;
+    object-fit: cover;
+  }
